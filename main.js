@@ -46,7 +46,6 @@ async function covidInformation() {
 
         const covidRecovered = document.createElement("li");
         // console.log("Extra li-element?", covidRecovered);
-
         covidRecovered.textContent = `${data.recovered} mensen zijn hersteld van Covid.`;
 
         covidByProvence.appendChild(covidRecovered);
